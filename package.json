@@ -1,0 +1,21 @@
+{
+  "name": "vnode-cli",
+  "version": "1.0.0",
+  "description": "a simple case",
+  "main": "index.js",
+  "repository": "https://github.com/Carry-Cheng/vnode-cli.git",
+  "author": "zhoucheng <1057415350@qq.com>",
+	"license": "MIT",
+	"bin": {
+		"vnode-cli": "index.js"
+	},
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.1",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
